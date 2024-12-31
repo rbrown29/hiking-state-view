@@ -1,0 +1,203 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  background-color: #e6e6e6;
+  font-family: 'Tourney', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.h1-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.hiking-icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 0;
+  border-radius: 50%;
+  background-color: #E8F5E9;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.centered-h1 {
+  flex: 1;
+  text-align: center;
+  color: #e6e6e6;
+  font-size: 2.5rem;
+  font-family: 'Anton', sans-serif;
+  margin: 0;
+}
+
+.search-box-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #2b2b2b;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #e6e6e6;
+}
+
+.search-box::placeholder {
+  color: #e6e6e6;
+  opacity: 0.5;
+}
+
+.search-box:focus  {
+  outline: none;
+  border-color: #e6e6e6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+  color: #e6e6e6;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.card-image img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.link {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #9E9E9E
+}
+
+.author {
+  font-size: 1rem;
+  color: #9E9E9E;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#cardTitle {
+  color: #e6e6e6;
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.collection {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.collection-item {
+  border-bottom: 1px solid #E0E0E0;
+  padding: 8px 0;
+}
+
+.green-text {
+  color: #4CAF50;
+}
+
+.blue-text {
+  color: #2196F3;
+}
+
+.red-text {
+  color: #F44336;
+}
+
+.black-text {
+  color: #000;
+}
+
+.white-text {
+  color: #2b2b2b;
+}
+
+.header {
+  background-color: #e6e6e6;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.p {
+  font-size: 1.1rem;
+  font-family: 'Tourney', cursive;
+  color: #333;
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .h1-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hiking-icon {
+    margin-bottom: 10px;
+  }
+  .centered-h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .search-box {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .h1-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hiking-icon {
+    margin-bottom: 10px;
+  }
+  .centered-h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .search-box {
+    max-width: 250px;
+  }
+}
+
+
+
