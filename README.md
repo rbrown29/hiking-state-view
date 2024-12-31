@@ -1,4 +1,4 @@
-# Oregon Hiker App
+# State View: Hiking Trails
 
 ## Overview
 The **Hiking state View** is a React-based web application designed to help users explore hiking trails. The app features a search functionality, allowing users to filter trails by name, and displays detailed information about each trail.
